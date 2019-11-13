@@ -61,7 +61,7 @@ troll(){
     sleep 0.03
     echo " ============================="
     sleep 2
-    echo " ==      Troll Project      =="
+    echo " ==      Troll KUYA PINTAR      =="
     sleep 0.7
     echo " ============================="
 }
@@ -80,14 +80,14 @@ load(){
 get_sms=$(curl -s http://zlucifer.com/api/hackbae.php?request=sms)
 get_call=$(curl -s http://zlucifer.com/api/hackbae.php?request=call)
 mulai (){
-    echo "Gunakan Troll Project Lagi?"
+    echo "Gunakan KUYA PINTAR Lagi?"
     echo "y/n?"
     echo
     read lagi
     if [ $lagi = "y" ]; then
             spam
     else
-            echo "Terimakasih sudah menggunakan Troll project"
+            echo "Terimakasih sudah menggunakan KUYA PINTAR"
     fi
 }
 #spam
@@ -97,7 +97,7 @@ spam(){
     echo
     echo "[1] Spam SMS"
     echo "[2] Spam Telp"
-    echo "[3] Close Troll Project"
+    echo "[3] Close KUYA PINTAR"
     echo
     echo "1/2/3?"
     read pilih
@@ -128,7 +128,7 @@ spam(){
                     echo " Gunakan tools dengan bijak"
                     echo
                     echo " Love u always "
-                    echo " -zLucifer"
+                    echo " -KANG ENGKUR"
                     echo "======================================="
             else
                     echo "Kesalahan"
@@ -168,7 +168,7 @@ spam(){
                   echo " Gunakan tools dengan bijak"
                   echo
                   echo " Love u always "
-                  echo " -zLucifer"
+                  echo " -KANG ENGKUR"
                   echo "========================================"
             else
                   echo Kesalahan, silahkan coba lagi
@@ -195,7 +195,7 @@ echo Selamat datang kak, Siapa nick kaka? #tulisan keluar
 read nick #membaca yang ditulis
 clear
 troll
-echo Selamat datang $nick ":)"
+echo Selamat datang $ngaran ":)"
 echo
 echo "Mulai troll project?"
 echo "y/n?"
